@@ -27,6 +27,7 @@
     commune: [],
   ),
   date: datetime.today(),
+  date-format: "[day]/[month]/[year]",
   lieu: [],
   espace-signature: 3cm,
   signature: none,
@@ -59,7 +60,7 @@ Fait pour servir et valoir ce que de droit.
 
 #set align(right + horizon)
 
-#lieu, le #date.display("[day]/[month]/[year]")
+#lieu, le #date.display(date-format)
 
 #if signature == none {v(espace-signature)
 } else {block(height: espace-signature, signature)}

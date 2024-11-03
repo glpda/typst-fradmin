@@ -13,6 +13,7 @@ The template has the following arguments:
 - `nom` : Your familly name.
 - `adresse` : Your full address, see bellow for detailed format.
 - `date` : The date when the attestation is written. (default: `datetime.today()`)
+- `date-format` : The date display format, see [typst documentation](https://typst.app/docs/reference/foundations/datetime/#format). (default: `"[day]/[month]/[year]"`)
 - `lieu` : The place where the attestation is written.
 - `signature` : The signature, can be either `none` to put an empty space for an handwritten signature or some content like `image("signature.png")`. (default: `none`)
 - `espace-signature` : The signature height. (default: `3cm`)
@@ -37,6 +38,7 @@ Ce modèle a les arguments suivants :
 - `nom` : Votre nom de famille.
 - `adresse` : Votre adresse complète, voir ci-dessous pour le format détaillé.
 - `date` : La date de l'attestation. (par défaut: `datetime.today()`)
+- `date-format` : Le format d'affichage de la date, voir la [documentation typst](https://typst.app/docs/reference/foundations/datetime/#format). (par défaut: `"[day]/[month]/[year]"`)
 - `lieu` : Le lieu où l'attestation est écrite.
 - `signature` : La signature, peut être soit `none` pour laisser un espace vide pour une signature manuscrite ou du contenu comme `image("signature.png")`. (par défaut: `none`)
 - `espace-signature` : La hauteur de l'espace pour signature. (par défaut: `3cm`)
