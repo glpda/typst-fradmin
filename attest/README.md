@@ -54,17 +54,21 @@ adresse: (
 ```
 
 
-## License
+## License (en)
 
 Strongly inspired by this
 [tool](https://www.service-public.fr/simulateur/calcul/AttestationHonneur)
-made by the French public service.
-
-Fortement inspiré par cet outil
-[tool](https://www.service-public.fr/simulateur/calcul/AttestationHonneur)
-fait par les services publics Français.
+made by the Direction de l'Information Légale et Administrative (Dila - Premier ministre), updated on 3 novembre 2024.
 
 This package is available under the [MIT license](https://github.com/glpda/framodel/blob/master/LICENSE).
 
+
+## Licence (fr)
+
+Fortement inspiré par cet outil
+[tool](https://www.service-public.fr/simulateur/calcul/AttestationHonneur)
+fait par la Direction de l'Information Légale et Administrative (Dila - Premier ministre), mise à jour le 3 novembre 2024.
+
+Ce modèle est distribué sous la [licence MIT](https://github.com/glpda/framodel/blob/master/LICENSE).
 
 
