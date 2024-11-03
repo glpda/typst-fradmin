@@ -60,11 +60,11 @@ Strongly inspired by this
 [tool](https://www.service-public.fr/simulateur/calcul/AttestationHonneur)
 made by the French public service.
 
-Fortement inspiré par cette outil
+Fortement inspiré par cet outil
 [tool](https://www.service-public.fr/simulateur/calcul/AttestationHonneur)
 fait par les services publics Français.
 
-The package is available under the [MIT license](https://github.com/glpda/framodel/blob/master/LICENSE).
+This package is available under the [MIT license](https://github.com/glpda/framodel/blob/master/LICENSE).
 
 
 
