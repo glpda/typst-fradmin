@@ -4,15 +4,15 @@
 #let list-args = (marker: "", indent: 20pt)
 
 #let display-address(
-    voie: [],
-    complement: [],
-    code-postal: [],
-    commune: [],
-  ) = [
-#set list(..list-args)
-- #voie
-#if complement != "" [- #complement]
-- #code-postal #commune
+  voie: [],
+  complement: [],
+  code-postal: [],
+  commune: [],
+) = [
+  #set list(..list-args)
+  - #voie
+  #if complement != "" [- #complement]
+  - #code-postal #commune
 ]
 
 #let attest(
@@ -31,41 +31,44 @@
   lieu: [],
   espace-signature: 3cm,
   signature: none,
-  faits
+  faits,
 ) = [
 
-#set text(font: police, size: 12pt)
-#set par(justify: true)
-#show heading.where(level: 1): set align(center)
+  #set text(font: police, size: 12pt)
+  #set par(justify: true)
+  #show heading.where(level: 1): set align(center)
 
-= ATTESTATION SUR L'HONNEUR
+  = ATTESTATION SUR L'HONNEUR
 
-#v(1cm)
+  #v(1cm)
 
-Je soussigné#if feminin [e]
-#list(..list-args, [#prenom #smallcaps(nom)])
-demeurant
-#display-address(..adresse)
+  Je soussigné#if feminin [e]
+  #list(..list-args, [#prenom #smallcaps(nom)])
+  demeurant
+  #display-address(..adresse)
 
-atteste sur l'honneur que
+  atteste sur l'honneur que
 
-#faits
+  #faits
 
-#v(1cm)
+  #v(1cm)
 
-J'ai bien conscience que cette attestation pourra être produite en justice
-et que toute fausse déclaration de ma part m'expose à des sanctions pénales.
+  J'ai bien conscience que cette attestation pourra être produite en justice
+  et que toute fausse déclaration de ma part m'expose à des sanctions pénales.
 
-Fait pour servir et valoir ce que de droit.
+  Fait pour servir et valoir ce que de droit.
 
-#set align(right + horizon)
+  #set align(right + horizon)
 
-#lieu, le #date.display(date-format)
+  #lieu, le #date.display(date-format)
 
-#if signature == none {v(espace-signature)
-} else {block(height: espace-signature, signature)}
+  #if signature == none {
+    v(espace-signature)
+  } else {
+    block(height: espace-signature, signature)
+  }
 
-#prenom #smallcaps(nom)
+  #prenom #smallcaps(nom)
 ]
 
 
