@@ -58,17 +58,25 @@ adresse: (
 
 Strongly inspired by this
 [tool](https://www.service-public.fr/simulateur/calcul/AttestationHonneur)
-made by the Direction de l'Information Légale et Administrative (Dila - Premier ministre), updated on 3 novembre 2024.
+made by the Direction de l'Information Légale et Administrative (Dila - Premier ministre),
+updated on 3 novembre 2024.
 
-This package is available under the [MIT license](https://github.com/glpda/framodel/blob/master/LICENSE).
+This package is available under the
+[MIT license](https://github.com/glpda/framodel/blob/master/LICENSE),
+the attribution clause does not apply to anything in the
+[template directory](template).
 
 
 ## Licence (fr)
 
 Fortement inspiré par cet outil
 [tool](https://www.service-public.fr/simulateur/calcul/AttestationHonneur)
-fait par la Direction de l'Information Légale et Administrative (Dila - Premier ministre), mise à jour le 3 novembre 2024.
+fait par la Direction de l'Information Légale et Administrative (Dila - Premier ministre),
+mise à jour le 3 novembre 2024.
 
-Ce modèle est distribué sous la [licence MIT](https://github.com/glpda/framodel/blob/master/LICENSE).
+Ce paquet est distribué sous la
+[licence MIT](https://github.com/glpda/framodel/blob/master/LICENSE),
+la clause d'attribution ne s'applique pas à tout ce qui est dans le
+[répertoire template](template).
 
 

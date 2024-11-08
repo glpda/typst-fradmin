@@ -16,7 +16,8 @@ Tout les modèles suivent le même schéma d'appellation `framodel-<nom>`.
 
 ## License
 
-All templates in this repository are under the [MIT license](https://github.com/glpda/framodel/blob/master/LICENSE).
+All packages in this repository are under the [MIT license](LICENSE),
+templates are under the MIT-0 license (no attribution clause).
 
 
 
