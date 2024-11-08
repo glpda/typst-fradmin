@@ -1,6 +1,6 @@
-#import "@preview/framodel-attest:0.1.0": *
+#import "@preview/framodel-attest:0.2.0": *
 
-#set text(lang: "fr")
+#set text(lang: "fr", size: 12pt, font: "libertinus serif")
 
 #show: attest.with(
   feminin: true,
