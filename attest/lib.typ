@@ -1,7 +1,7 @@
 
 #set text(lang: "fr")
 
-#let list-args = (marker: "", indent: 20pt)
+#let list-args = (marker: "", indent: 2em)
 
 #let display-address(
   voie: [],
@@ -38,6 +38,7 @@
   #show heading.where(level: 1): set align(center)
 
   = ATTESTATION SUR L'HONNEUR
+  #set heading(offset: 1)
 
   #v(espace)
 
