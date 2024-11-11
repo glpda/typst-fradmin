@@ -23,7 +23,7 @@
   titre-destinataire: none,
   destinataire: "Service Ressources Humaines",
   // titre-destinataire: "Monsieur",
-  // destinataire: [Untel \ Directeur]
+  // destinataire: [#smallcaps(Untel) \ Directeur des Ressources Humaines]
 
   // type-remise: [Lettre recommandée avec accusé de réception],
   // type-remise: [Remise en main propre contre décharge],
