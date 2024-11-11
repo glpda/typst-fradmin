@@ -5,13 +5,13 @@
 
 #let display-address(
   voie: [],
-  complement: [],
+  complément: [],
   code-postal: [],
   commune: [],
 ) = [
   #set list(..list-args)
   - #voie
-  #if complement != "" [- #complement]
+  #if complément != "" [- #complément]
   - #code-postal #commune
 ]
 
@@ -26,11 +26,11 @@
 #let demissalar(
   espace: 1cm,
   format-date: "[day]/[month]/[year]",
-  prenom: "[Prénom]",
+  prénom: "[Prénom]",
   nom: "[Nom]",
   adresse: (
     voie: "",
-    complement: "",
+    complément: "",
     code-postal: "00000",
     commune: "",
   ),
@@ -38,7 +38,7 @@
     nom: "",
     adresse: (
       voie: "",
-      complement: "",
+      complément: "",
       code-postal: "00000",
       commune: "",
     ),
@@ -60,7 +60,7 @@
   #set par(justify: true)
 
   #set align(top + left)
-  #list(..list-args, [#prenom #smallcaps(nom)])
+  #list(..list-args, [#prénom #smallcaps(nom)])
   #display-address(..adresse)
 
   #set align(right)
@@ -104,7 +104,7 @@
     block(height: espace-signature, signature)
   }
 
-  #prenom #smallcaps(nom)
+  #prénom #smallcaps(nom)
 ]
 
 

@@ -3,11 +3,11 @@
 #set text(lang: "fr", size: 12pt, font: "libertinus serif")
 
 #demissalar(
-  prenom: "Prénom",
+  prénom: "Prénom",
   nom: "Nom",
   adresse: (
     voie: "42 bis rue du Pont",
-    complement: "",
+    complément: "",
     code-postal: "75011",
     commune: "Paris",
   ),
@@ -15,7 +15,7 @@
     nom: "Travail et Cie.",
     adresse: (
     voie: "30 rue du Pont",
-    complement: "bâtiment 3",
+    complément: "bâtiment 3",
     code-postal: "75013",
     commune: "Paris",
     )
