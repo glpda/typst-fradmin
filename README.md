@@ -19,5 +19,8 @@ Tout les modèles suivent le même schéma d'appellation `fradmin-<nom>`.
 All packages in this repository are under the [MIT license](LICENSE),
 templates are under the MIT-0 license (no attribution clause).
 
+Tout les paquets dans ce dépôt sont sous la [licence MIT](LICENSE),
+les modèles sont sous la licence MIT-0 (pas de clause d'attribution).
+
 
 
