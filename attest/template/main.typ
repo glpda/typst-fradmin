@@ -1,4 +1,4 @@
-#import "@preview/framodel-attest:0.2.0": *
+#import "@preview/fradmin-attest:0.2.0": *
 
 #set text(lang: "fr", size: 12pt, font: "libertinus serif")
 

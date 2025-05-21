@@ -1,4 +1,4 @@
-#import "@preview/framodel-demissalar:0.1.0": *
+#import "@preview/fradmin-demissalar:0.1.0": *
 
 #set text(lang: "fr", size: 12pt, font: "libertinus serif")
 
@@ -14,16 +14,16 @@
   employeur: (
     nom: "Travail et Cie.",
     adresse: (
-    voie: "30 rue du Pont",
-    complément: "bâtiment 3",
-    code-postal: "75013",
-    commune: "Paris",
-    )
+      voie: "30 rue du Pont",
+      complément: "bâtiment 3",
+      code-postal: "75013",
+      commune: "Paris",
+    ),
   ),
   titre-destinataire: none,
   destinataire: "Service Ressources Humaines",
   // titre-destinataire: "Monsieur",
-  // destinataire: [#smallcaps(Untel) \ Directeur des Ressources Humaines]
+  // destinataire: [#smallcaps("Nom Destinataire") \ Directeur des Ressources Humaines]
 
   // type-remise: [Lettre recommandée avec accusé de réception],
   // type-remise: [Remise en main propre contre décharge],

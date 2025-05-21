@@ -1,5 +1,5 @@
 
-# Framodel Attest
+# Fradmin Attest
 
 French affidavit template - modèle d'attestation sur l'honneur.
 
@@ -62,7 +62,7 @@ made by the Direction de l'Information Légale et Administrative (Dila - Premier
 updated on 3 novembre 2024.
 
 This package is available under the
-[MIT license](https://github.com/glpda/framodel/blob/master/LICENSE),
+[MIT license](https://github.com/glpda/typst-fradmin/blob/master/LICENSE),
 the attribution clause does not apply to anything in the
 [template directory](template).
 
@@ -75,7 +75,7 @@ fait par la Direction de l'Information Légale et Administrative (Dila - Premier
 mise à jour le 3 novembre 2024.
 
 Ce paquet est distribué sous la
-[licence MIT](https://github.com/glpda/framodel/blob/master/LICENSE),
+[licence MIT](https://github.com/glpda/typst-fradmin/blob/master/LICENSE),
 la clause d'attribution ne s'applique pas à tout ce qui est dans le
 [répertoire template](template).
 

@@ -1,12 +1,12 @@
 [package]
-name = "framodel-attest"
+name = "fradmin-attest"
 version = "0.2.0"
 compiler = "0.12.0"
 entrypoint = "lib.typ"
 authors = ["Louis Guichard <glpda+git@pm.me>"]
 license = "MIT"
 description = "French affidavit template - modèle d'attestation sur l'honneur."
-repository = "https://github.com/glpda/framodel"
+repository = "https://github.com/glpda/typst-fradmin"
 keywords = ["administration", "letter"]
 categories = ["office"]
 disciplines = ["law"]

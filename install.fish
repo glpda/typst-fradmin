@@ -13,7 +13,7 @@ set namespace "preview"
 
 for package in $argv
     if test -f "$package/typst.toml"
-        set -l name "framodel-$package"
+        set -l name "fradmin-$package"
         set -l _version (yq '.package.version'  "$package/typst.toml")
         set -l target "$data_dir/typst/packages/$namespace/$name/$_version"
         echo "copy $package/* into $target"

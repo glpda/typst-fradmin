@@ -1,11 +1,11 @@
 
-# Framodel
+# Fradmin
 
 A collection of Typst templates for various French administrative documents.
-All templates follow the same naming scheme `framodel-<name>`.
+All templates follow the same naming scheme `fradmin-<name>`.
 
 Une collection de modèle Typst pour divers documents administratifs français.
-Tout les modèles suivent le même schéma d'appellation `framodel-<nom>`.
+Tout les modèles suivent le même schéma d'appellation `fradmin-<nom>`.
 
 
 ## List

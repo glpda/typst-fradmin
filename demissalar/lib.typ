@@ -50,6 +50,7 @@
   date-contrat: datetime(year: 2000, month: 1, day: 1),
   préavis-contrat: "[accord/contrat/convention]",
   durée-préavis: "2 mois",
+  date-départ: datetime.today(),
   effectue-préavis: true,
   date: datetime.today(),
   lieu: [],
